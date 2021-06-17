@@ -20,7 +20,6 @@ else:
     print('Please make sure your toolchains is GNU GCC!')
     exit(0)
 
-os.environ['RTT_EXEC_PATH'] = r'D:\Project\k210_third_tools\xpack-riscv-none-embed-gcc-8.3.0-1.2\bin'
 if os.getenv('RTT_EXEC_PATH'):
     EXEC_PATH = os.getenv('RTT_EXEC_PATH')
 
