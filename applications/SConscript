@@ -2,7 +2,7 @@ from building import *
 
 cwd     = GetCurrentDir()
 src     = Glob('*.c') + Glob('*.cpp') + Glob('./board_config/*.c')
-CPPPATH = [cwd, os.path.join(cwd, "board_config")]
+CPPPATH = [cwd, os.path.join(cwd, "board_config"),  os.path.join(cwd, "test_data")]
 
 group = DefineGroup('Applications', src, depend = [''], CPPPATH = CPPPATH)
 
