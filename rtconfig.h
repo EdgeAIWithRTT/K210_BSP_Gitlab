@@ -189,5 +189,6 @@
 #define BSP_SPI1_USING_SS2
 #define BSP_SPI1_SS2_PIN 26
 #define __STACKSIZE__ 4096
+#define RT_AI_USE_K210
 
 #endif
